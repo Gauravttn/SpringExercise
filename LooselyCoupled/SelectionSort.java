@@ -2,7 +2,7 @@ package com.bootcamp.spring.firstspring.LooselyCoupled;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
-@Primary
+@Primary // We use @Primary for resolving the conflict while calling the constructor of binarySearch class
 @Component
 public class SelectionSort implements Sorting{
 
