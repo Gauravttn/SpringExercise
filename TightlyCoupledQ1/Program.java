@@ -1,11 +1,11 @@
-package com.bootcamp.spring.firstspring;
+package com.bootcamp.spring.firstspring.TightlyCoupledQ1;
 
 public class Program {
 	
 	public static void main(String[] args) {
 		BinarySearchTightlyCoupled obj=new BinarySearchTightlyCoupled();
 		int arr[]= {4,3,5,7,3,1,9};
-		int num=10;
+		int num=7;
 		
 		int res=obj.BinarySearch(arr, num);
 		if(res==-1) {

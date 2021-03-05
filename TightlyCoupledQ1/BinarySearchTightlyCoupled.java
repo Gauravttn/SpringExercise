@@ -1,4 +1,4 @@
-package com.bootcamp.spring.firstspring;
+package com.bootcamp.spring.firstspring.TightlyCoupledQ1;
 
 public class BinarySearchTightlyCoupled {
 	
