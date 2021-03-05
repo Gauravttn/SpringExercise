@@ -9,9 +9,14 @@ public class BinarySearch {
 	@Autowired
 	private Sorting sorting;
 	//Sorting Called dynamically
-	BinarySearch(Sorting sorting){
-		this.sorting=sorting;
-	}
+	
+	//***********CONSTRUCTOR INJECTION************
+	
+			BinarySearch(Sorting sorting){
+				this.sorting=sorting;
+			}
+			
+	//********************************************
 	
 	public int binarySearch(int[] arr,int key) {
 		
