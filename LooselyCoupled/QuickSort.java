@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class QuickSort implements Sorting{
-
+	
 	@Override
 	public int[] sort(int[] arr) {
 		int low = 0 , high = arr.length-1;

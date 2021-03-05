@@ -8,14 +8,16 @@ public class BinarySearch {
 	
 	@Autowired
 	private Sorting sorting;
+	//Sorting Called dynamically
 	BinarySearch(Sorting sorting){
 		this.sorting=sorting;
 	}
 	
 	public int binarySearch(int[] arr,int key) {
+		
 		arr=sorting.sort(arr);
 		
-		//Searching
+		//Searching 
 		int n = arr.length;  
 	     int temp = 0;  
 	      for(int i=0; i < n; i++){  
