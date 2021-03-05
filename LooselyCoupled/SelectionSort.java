@@ -1,5 +1,8 @@
 package com.bootcamp.spring.firstspring.LooselyCoupled;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SelectionSort implements Sorting{
 
 	@Override

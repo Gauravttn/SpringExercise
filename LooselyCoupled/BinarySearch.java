@@ -1,6 +1,12 @@
 package com.bootcamp.spring.firstspring.LooselyCoupled;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class BinarySearch {
+	
+	@Autowired
 	private Sorting sorting;
 	BinarySearch(Sorting sorting){
 		this.sorting=sorting;
@@ -31,7 +37,6 @@ public class BinarySearch {
 	         if ( arr[mid] < key ){  
 	           first = mid + 1;     
 	         }else if ( arr[mid] == key ){  
-//	           System.out.println("Element is found at index: " + mid);  
 	           return mid;
 
 	         }else{  
@@ -41,7 +46,6 @@ public class BinarySearch {
 	         
 	         if ( first > last ){  
 	        	 return -1;
-//	             System.out.println("Element is not found!");  
 	            
 	          }
 	      }  
